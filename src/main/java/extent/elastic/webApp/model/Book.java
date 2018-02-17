@@ -21,15 +21,15 @@ public class Book {
 
     }
 
-    public Book(long id, String title, String isbn, String publisher){
-        this.id = id;
+    public Book(String title, String isbn, String publisher){
+        //this.id = id;
         this.title = title;
         this.isbn = isbn;
         this.publisher = publisher;
     }
 
-    public Book(long id, String title, String isbn, String publisher, Set<Author> authors){
-        this.id = id;
+    public Book( String title, String isbn, String publisher, Set<Author> authors){
+        //this.id = id;
         this.title = title;
         this.isbn = isbn;
         this.publisher = publisher;
@@ -38,13 +38,13 @@ public class Book {
     }
 
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+//    public long getId() {
+//        return id;
+//    }
+//
+//    public void setId(Long id) {
+//        this.id = id;
+//    }
 
     public String getTitle() {
         return title;
