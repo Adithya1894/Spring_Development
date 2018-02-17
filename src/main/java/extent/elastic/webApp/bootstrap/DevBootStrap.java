@@ -38,11 +38,6 @@ public class DevBootStrap implements ApplicationListener<ContextRefreshedEvent> 
         authorRepository.save(Gayle);
         bookRepository.save(book1);
 
-
-
-
-
-
     }
 
 
