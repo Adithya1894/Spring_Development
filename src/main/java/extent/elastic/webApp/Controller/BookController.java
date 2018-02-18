@@ -12,6 +12,7 @@ public class BookController {
     //@Autowired
     private BookRepository bookRepository;
 
+    //Autowired is removed, so using the manual constructor injection
     public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
