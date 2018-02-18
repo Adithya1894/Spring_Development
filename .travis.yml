@@ -1,0 +1,14 @@
+language: java
+jdk:
+- oraclejdk8
+
+
+# use latest java version available instead of travis default
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+
+notifications:
+  email:
+    - adithya1894@gmail.com
