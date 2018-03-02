@@ -2,8 +2,7 @@ sudo: false
 language: java
 jdk:
 - oraclejdk8
-script:
-- src/test/java/extent/elastic/webApp/run.sh
+
 
 notifications:
   email:
