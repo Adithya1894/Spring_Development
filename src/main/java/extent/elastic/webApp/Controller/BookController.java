@@ -16,7 +16,8 @@ public class BookController {
     public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
-
+    //Returns the list of all the books available in the Database. shouldn't be doing this in production
+    //Use pagination to retreive a small amount of data in one page, so it wont spoil the performance
     @RequestMapping("/books")
     public String getBooks(Model model){
 
